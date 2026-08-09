@@ -68,7 +68,7 @@ def _get_env_int_list(name, *, default=None):
 #  Configuration
 # ═══════════════════════════════════════════════════
 
-BOT_TOKEN = _get_env("8427975341:AAFPGUl7FUgsJBjCipUwn0anHmsjVhblznQ", required=True)
+BOT_TOKEN = _get_env("BOT_TOKEN", required=True)
 KHPAY_API_KEY = _get_env("KHPAY_API_KEY", required=True)
 KHPAY_BASE_URL = _get_env("KHPAY_BASE_URL", default="https://khpay.site/api/v1")
 
